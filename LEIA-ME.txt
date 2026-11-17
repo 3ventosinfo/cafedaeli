@@ -1,0 +1,5 @@
+CAFÉ DA ELI — SITE
+Abra o arquivo index.html em um navegador para visualizar o site.
+A pasta imagens deve permanecer junto ao index.html.
+O site é responsivo e usa as fotografias enviadas pelo cliente.
+O endereço possui botão para abrir a localização no Google Maps.
