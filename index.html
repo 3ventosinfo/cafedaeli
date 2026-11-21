@@ -55,6 +55,16 @@ nav a:hover{color:var(--gold)}
 .signature{font-style:italic;color:#e6c27d;font-size:1.3rem}
 @media(max-width:900px){.hero-inner{grid-template-columns:1fr 1fr}.hero-copy{grid-column:1/-1;grid-row:1}.logo-wrap{grid-column:1;grid-row:2}.hero-coffee{grid-column:2;grid-row:2;height:290px}.address-inner{grid-template-columns:1fr 1fr}.visit{grid-column:1/-1;grid-row:1}}
 @media(max-width:620px){.nav{flex-direction:column;gap:10px}.welcome{display:none}nav{justify-content:center;gap:15px}.hero-inner{grid-template-columns:1fr;padding:28px 18px}.hero-copy{grid-column:auto;grid-row:auto}.logo-wrap{grid-column:auto;grid-row:auto}.logo-wrap img{max-width:350px}.hero-coffee{grid-column:auto;grid-row:auto;height:260px;max-width:420px;margin:auto}.products{grid-template-columns:1fr;max-width:500px}.product img{height:280px}.address-inner{grid-template-columns:1fr;text-align:center}.address{justify-content:center;font-size:1rem}.maps{justify-self:center}.visit{grid-column:auto}.features{justify-content:center}.footer-inner{justify-content:center;text-align:center}}
+
+.instagram-button{display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  padding:13px 22px;border:1px solid #e6c27d;border-radius:999px;
+  background:linear-gradient(135deg,#d9aa4f,#f7d995);color:#17110a;
+  text-decoration:none;font:700 .95rem Arial,sans-serif;letter-spacing:.02em;
+  box-shadow:0 5px 16px #0006;transition:transform .2s,box-shadow .2s;white-space:nowrap}
+.instagram-button:hover{transform:translateY(-2px);box-shadow:0 8px 20px #0008}
+.instagram-button .instagram-icon{font-size:1.2rem;line-height:1}
+@media(max-width:620px){.instagram-button{margin-top:6px}}
+
 </style>
 </head>
 <body>
@@ -96,6 +106,9 @@ nav a:hover{color:var(--gold)}
 <footer class="footer"><div class="footer-inner">
   <div class="features"><span><b>♧</b> Bolos artesanais</span><span><b>♡</b> Lanches deliciosos</span><span><b>☕</b> Cafés especiais</span></div>
   <div class="signature">Café da Eli... sempre uma boa escolha! ♡</div>
+  <a class="instagram-button" href="https://www.instagram.com/eli_cafe013/" target="_blank" rel="noopener noreferrer" aria-label="Siga o Café da Eli no Instagram">
+    <span class="instagram-icon" aria-hidden="true">◎</span> Siga nosso Instagram
+  </a>
 </div></footer>
 </body>
 </html>
